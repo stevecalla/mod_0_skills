@@ -1,0 +1,16 @@
+var food = "rice"
+var isDelicious = true
+food = "pasta"
+var num2 = 5
+var num7 = 10
+console.log (food)
+var quotient = num7 / num2
+console.log(quotient)
+var songs = ["song#1","song#2"]
+console.log(songs)
+//Write a line of code that removes the first element from the songs array
+songs.splice(0,1)
+console.log(songs);
+//source: https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Array/splice
+//Write a line of code that asks how many characters there are in the food string
+food.length
