@@ -1,0 +1,10 @@
+Class (category): Food (category)
+Instance (variation): (variation)
+Attribute (characteristic): count (integer)
+Attribute (characteristic): age (float)
+Attribute (characteristic): perishable (boolean)
+Attribute (characteristic): purchaseDate (datetime)
+Method (action/behavior): prepCount (reduce inventory/count based on prepping action; uses count)
+Method (action/behavior): determineAge (assigns age in days using today vs purchaseDate; uses age & purchaseDate
+Method (action/behavior): changePerishable (adjust perishable as necessary; uses perishable boolean
+Method (purchase_count): purchaseCount (increases inventory/count based on purchase amount; uses count)
