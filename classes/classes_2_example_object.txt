@@ -1,0 +1,9 @@
+instance: employee#1
+hireDate: 2020-01-01
+fire: false
+promote: false
+title: "Director of Fun"
+calculate_employmentLength: 30 (based on current date of 2020-02-01)
+statusActive: Yes (fire = false)
+statusPromote: No (promote = false)
+changeTitle: "Director of Play"
