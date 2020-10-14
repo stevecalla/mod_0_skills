@@ -1,16 +1,16 @@
 var food = "rice";             //string
-var isDelicious = true         //boolean
-food = "pasta"                 //string
-var num2 = 5
-var num7 = 10
-console.log (food)             //expected output "pasta"
-var quotient = num7 / num2     //expected output 10/5 = 2
-console.log(quotient)          //output 2
-var songs = ["song#1","song#2"]
-console.log(songs)             //output ["song#1","song#2"]
+var isDelicious = true;        //boolean
+food = "pasta";                //string
+var num2 = 5;
+var num7 = 10;
+console.log (food);            //expected output "pasta"
+var quotient = num7 / num2;    //expected output 10/5 = 2
+console.log(quotient);         //output 2
+var songs = ["song#1","song#2"];
+console.log(songs);            //output ["song#1","song#2"]
 //Write a line of code that removes the first element from the songs array
-songs.splice(0,1)              //(0,1); 0=start at zero,1=remove first element or "songs#1"
+songs.splice(0,1);             //(0,1); 0=start at zero,1=remove first element or "songs#1"
 console.log(songs);            //["song#2"]
 //source: https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Array/splice
 //Write a line of code that asks how many characters there are in the food string
-food.length                   //expected output=characters in "pasta"=5;don't need console.log as function will print output
+food.length;                   //expected output=characters in "pasta"=5;don't need console.log as function will print output
