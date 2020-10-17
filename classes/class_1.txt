@@ -1,8 +1,8 @@
-Class (category): food
+Class (category): Food
 Instance (variation): see class_1_example_object.txt
 Attribute (characteristic): count (integer)
 Attribute (characteristic): age (float)
-Attribute (characteristic): perishable (boolean)
+Attribute (characteristic): isPerishable (boolean)
 Attribute (characteristic): purchaseDate (datetime)
 Method (action/behavior): prepCount (reduce inventory/count based on prepping action; uses count)
 Method (action/behavior): determineAge (assigns age in days using today vs purchaseDate; uses age & purchaseDate)
