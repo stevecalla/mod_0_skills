@@ -1,10 +1,10 @@
-Class (category): staff
+Class (category): Staff
 Instance (variation): see class_2_example_object.txt
 Attribute (characteristic): hireDate (datetime)
-Attribute (characteristic): fire (boolean)
-Attribute (characteristic): promote (boolean)
+Attribute (characteristic): isFire (boolean)
+Attribute (characteristic): isPromote (boolean)
 Attribute (characteristic): title (string)
 Method (action/behavior): calculate_employmentLength (calculate length of employment in days; uses hireDate)
-Method (action/behavior): statusActive (determine if employee is active; uses fire boolean)
-Method (action/behavior): statusPromote (determines if employee is promoted; uses promote boolean)
+Method (action/behavior): statusActive (determine if employee is active; uses isFire boolean)
+Method (action/behavior): statusPromote (determines if employee is promoted; uses isPromote boolean)
 Method (action/behavior): changeTitle (adjust title; uses title)
