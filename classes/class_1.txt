@@ -3,7 +3,7 @@ Instance (variation): see class_1_example_object.txt
 Attribute (characteristic): count (integer)
 Attribute (characteristic): age (float)
 Attribute (characteristic): isPerishable (boolean)
-Attribute (characteristic): purchaseDate (datetime)
+Attribute (characteristic): purchaseDate (datetime; handled as a string; need to lear how to manage??)
 Method (action/behavior): prepCount (reduce inventory/count based on prepping action; uses count)
 Method (action/behavior): determineAge (assigns age in days using today vs purchaseDate; uses age & purchaseDate)
 Method (action/behavior): changePerishable (adjust perishable as necessary; uses perishable boolean)
