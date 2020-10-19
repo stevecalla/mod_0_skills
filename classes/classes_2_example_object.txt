@@ -1,5 +1,5 @@
 instance: employee#1
-hireDate: 2020-01-01
+hireDate: "2020-01-01" //datetime is a string; need to learn how to manage
 fire: false
 promote: false
 title: "Director of Fun"
