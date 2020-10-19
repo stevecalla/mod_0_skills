@@ -1,6 +1,6 @@
 Class (category): Staff
 Instance (variation): see class_2_example_object.txt
-Attribute (characteristic): hireDate (datetime)
+Attribute (characteristic): hireDate (datetime; handled as a string; need to learn how to manage)
 Attribute (characteristic): isFire (boolean)
 Attribute (characteristic): isPromote (boolean)
 Attribute (characteristic): title (string)
