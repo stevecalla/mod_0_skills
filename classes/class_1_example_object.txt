@@ -2,7 +2,7 @@ instance: rice
 count: 5
 age: 10
 perishable: false
-purchaseDate: 2020-10-01
+purchaseDate: "2020-10-01" //datetime treated as string; need to learn how to manage
 prepCount: 2
 determinesAge: 5 (assumes today = 2020-10-06)
 trackPerishable: false
